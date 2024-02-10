@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+</head>
+
+<body>
+    Hello world
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/js-base64@2.5.2/base64.min.js"></script>
+<script>
+
+    var str = "I was funny 😂😊😊❤👍";
+    console.log("Original string:", str);
+
+    var encodedStr = Base64.encode(str)
+    console.log("Encoded string:", encodedStr);
+
+    var decodedStr = Base64.decode(encodedStr)
+    console.log("Decoded string:", decodedStr);
+</script>
+
+</html>
